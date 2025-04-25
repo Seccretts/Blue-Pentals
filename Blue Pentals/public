@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blue Pentals</title>
+    <style>
+        body {
+            background-color: #7f90d7; /* Fundo azul */
+            font-family: Cuckoo;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        /* Barra de navegação */
+        nav {
+            background-color: #5a5ad8; /* Azul escuro */
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            background-color: #4169E1; /* Cor azul mais clara ao passar o mouse */
+            border-radius: 5px;
+        }
+        /* Cabeçalho */
+        header {
+            background-color: #00008B;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        /* Conteúdo principal */
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+        .description {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        .about {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        /* Rodapé */
+        footer {
+            background-color: #00008B;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegação -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Produtos</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Blue Pentals</h1>
+        <p>A fragrância que marca sua presença.</p>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <div class="main-content">
+        <div class="description">
+            <p>Bem-vindo à Perfumaria Famosa, onde criamos fragrâncias para transformar seu dia.</p>
+        </div>
+
+        <div class="about">
+            <h2>Sobre Nós</h2>
+            <p>Na Perfumaria Famosa, nosso compromisso é com a excelência e a sofisticação. Oferecemos perfumes exclusivos, criados com as melhores matérias-primas do mercado, para que você sinta a verdadeira essência de luxo a cada aplicação.</p>
+            <p>Explore nossos aromas e descubra o perfume perfeito para marcar sua presença em qualquer ocasião. Estamos sempre em busca das melhores tendências para oferecer a você uma experiência única e memorável.</p>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Perfumaria Famosa. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
